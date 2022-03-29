@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Title</title>
+</head>
+<body>
+    {% for item in Animals %}
+        {{item}}<br>
+    {% endfor %}
+    <p>Регистрация</p>
+<form method="POST">
+        {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
