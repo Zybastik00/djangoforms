@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-image: url("images/123.png");
+    font-family: tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.onas {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+
+}
+.a {
+    text-align: right
+
+
+}
+.registration {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.opis {
+    margin: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.photo-card {
+    display: block;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.price {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}

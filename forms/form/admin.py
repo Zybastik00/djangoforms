@@ -1,14 +1,9 @@
 from django.contrib import admin
 
-from .models import Animals,Char
+from .models import People
 
-class AnimalsAdmin(admin.ModelAdmin):
-    list_display =('name','type1')
-    search_fields =('name','type1')
+class PeopleAdmin(admin.ModelAdmin):
+    list_display=('name','number_phone')
+    search_fields = ('name', 'number_phone')
 
-class CharAdmin(admin.ModelAdmin):
-    list_display = ('color','age')
-    search_fields = ('color','age')
-
-admin.site.register(Animals,AnimalsAdmin)
-admin.site.register(Char,CharAdmin)
+admin.site.register(People,PeopleAdmin)

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-image: url("images/123.png");
+    font-family: tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.text {
+    text-align: left;
+    margin-left: 30px;
+
+}
+.tex {
+    word-break: break-word;
+
+}
+.photo {
+
+    height: 200px;
+    width: 100px;
+}

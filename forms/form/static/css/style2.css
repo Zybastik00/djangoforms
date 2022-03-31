@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-image: url("images/123.png");
+    font-family: tahoma;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.registration {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.but{
+    margin: 20px;
+}
+
+.onas {
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+.a {
+    text-align: right
+
+}
+.photo-card {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+}
